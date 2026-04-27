@@ -448,7 +448,7 @@ const InstitutionalSection = () => (
               src="apex.png"
               alt="Apex"
               className="h-14 md:h-16 object-contain"
-              style={{ filter: 'invert(40%) sepia(80%) saturate(2000%) hue-rotate(5deg) brightness(90%) contrast(100%)' }}
+              style={{ filter: 'invert(37%) sepia(93%) saturate(3015%) hue-rotate(352deg) brightness(96%) contrast(92%)' }}
             />
           </div>
         </div>
