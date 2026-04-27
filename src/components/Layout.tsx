@@ -310,7 +310,7 @@ const HeroSection = ({ onDownload }: { onDownload: () => void }) => (
 
         <div className="flex flex-wrap items-center justify-center gap-4 mb-16">
           <button onClick={onDownload} className="btn-primary text-[15px]">
-            <Download size={16} /> Download for free
+            <Download size={16} /> Download
           </button>
           <a href="https://github.com/Nikos-Unilasalle/VisionNodes" target="_blank" rel="noreferrer"
              className="btn-secondary text-[15px]">
