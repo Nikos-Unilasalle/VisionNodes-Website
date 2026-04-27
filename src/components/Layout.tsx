@@ -159,7 +159,7 @@ const SubNav = ({ activeTab, setActiveTab }: { activeTab: Tab; setActiveTab: (t:
           className="flex items-center gap-3 text-[19px] font-semibold tracking-tight text-[var(--text-main)] hover:text-[var(--accent)] transition-colors group"
           style={{ fontFamily: 'Rubik, sans-serif' }}
         >
-          <img src="/logo.svg" alt="VN" className="w-8 h-8 transition-transform group-hover:scale-110" />
+          <img src="logo.svg" alt="VN" className="w-8 h-8 transition-transform group-hover:scale-110" />
           VisionNodes Studio
         </button>
 
@@ -295,7 +295,7 @@ const HeroSection = ({ onDownload }: { onDownload: () => void }) => (
         </div>
 
         <div className="flex flex-col md:flex-row items-center justify-center gap-6 mb-4">
-          <img src="/logo.svg" alt="VisionNodes Logo" className="w-20 h-20 md:w-28 md:h-28" />
+          <img src="logo.svg" alt="VisionNodes Logo" className="w-20 h-20 md:w-28 md:h-28" />
           <h1 className="text-[52px] md:text-[72px] font-normal text-[var(--text-main)] leading-none">
             VisionNodes Studio
           </h1>
@@ -322,7 +322,7 @@ const HeroSection = ({ onDownload }: { onDownload: () => void }) => (
         <div className="relative max-w-5xl mx-auto">
           <MacOsWindow className="relative z-10">
             <img
-              src="/cover.png"
+              src="cover.png"
               alt="VisionNodes Studio interface"
             />
           </MacOsWindow>
@@ -425,7 +425,7 @@ const InstitutionalSection = () => (
       >
         {/* Campus background */}
         <div className="absolute inset-0">
-          <img src="/campus.jpg" alt="Campus" className="w-full h-full object-cover opacity-[0.12]" />
+          <img src="campus.jpg" alt="Campus" className="w-full h-full object-cover opacity-[0.12]" />
           <div className="absolute inset-0 bg-gradient-to-r from-[var(--bg-card)] via-[var(--bg-card)]/90 to-[var(--bg-card)]/60" />
         </div>
 
@@ -443,9 +443,9 @@ const InstitutionalSection = () => (
 
           {/* Logos */}
           <div className="flex items-center gap-10 flex-wrap">
-            <img src="/unilasalle.png" alt="UniLaSalle" className="h-14 md:h-16 object-contain" />
+            <img src="unilasalle.png" alt="UniLaSalle" className="h-14 md:h-16 object-contain" />
             <img
-              src="/apex.png"
+              src="apex.png"
               alt="Apex"
               className="h-14 md:h-16 object-contain"
               style={{ filter: 'invert(40%) sepia(80%) saturate(2000%) hue-rotate(5deg) brightness(90%) contrast(100%)' }}
